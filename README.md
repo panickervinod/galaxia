@@ -126,7 +126,11 @@ Ubuntu comes with Python v2.7 out of the box
 Python Pip
 ----------
 Install Python Pip on ubuntu using the following command
+
+```
 sudo apt-get -y install python-pip
+
+```
 
 mysql-server
 ------------
@@ -224,9 +228,8 @@ cp config/database.yml.example config/database.yml
 - Set the following environment variables, substitute the values for username, password & host
 
 ```
-
-    export DATABASE_URL="mysql2://username:password@host/galaxia"
-    export RAILS_ENV="production"
+export DATABASE_URL="mysql2://username:password@host/galaxia"
+export RAILS_ENV="production"
 ```
 
 - Now install bundler using the command
@@ -263,7 +266,7 @@ cadvisor is being used as a metrics exporter here, we use a docker image here
 
 ```
 
-     sudo docker run --volume=/:/rootfs:ro --volume=/var/run:/var/run:rw --volume=/sys:/sys:ro --volume=/var/lib/docker/:/var/lib/docker:ro  --publish=8090:8080   --detach=true
+sudo docker run --volume=/:/rootfs:ro --volume=/var/run:/var/run:rw --volume=/sys:/sys:ro --volume=/var/lib/docker/:/var/lib/docker:ro  --publish=8090:8080   --detach=true
      --name=cadvisor google/cadvisor
 ```
 
@@ -287,7 +290,7 @@ Steps to install Galaxia
 
 ```
 
-    python database.py --host localhost --type mysql --username root --password root**
+python database.py --host localhost --type mysql --username root --password root**
 
 ```
 
