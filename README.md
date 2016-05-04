@@ -76,16 +76,16 @@ from various systems. Some of the pain points today organization face:
 
 ### Future Roadmap
 --------------
-- Remove dependency on promdash for dashboard rendering
-- Capability to group related dashboards
-- Capability to pause, stop and resume outbound exporter jobs
-- Capability to generate custom reports
-- Capability to subscribe for alerts and notifications
-- Capability to bring in intelligence among metrics from various systems and generate an integrated dashboard
-- Integrate with another third party metrics renderer like grafana
-- Provide capacity planning capabilities via advanced analytics
-- Capability to segregate dashboards as per user profile
-- Co-relation between metrics and associated drilled down capabilities
+ - Remove dependency on promdash for dashboard rendering
+ - Capability to group related dashboards
+ - Capability to pause, stop and resume outbound exporter jobs
+ - Capability to generate custom reports
+ - Capability to subscribe for alerts and notifications
+ - Capability to bring in intelligence among metrics from various systems and generate an integrated dashboard
+ - Integrate with another third party metrics renderer like grafana
+ - Provide capacity planning capabilities via advanced analytics
+ - Capability to segregate dashboards as per user profile
+ - Co-relation between metrics and associated drilled down capabilities
 
 
 ### How Galaxia works?
@@ -104,15 +104,15 @@ operating system and hence will have to be modified accordingly for other OS.
 We are using vagrant box with ubuntu 14.04 to add up all the components
 To successfully operate Galaxia following softwares are required to be installed
 
-- python v2.7
-- python pip
-- mysql-server
-- rabbitmq-server
-- Prometheus
-- Promdash
-- Docker
-- cadvisor
-- Galaxia
+ - python v2.7
+ - python pip
+ - mysql-server
+ - rabbitmq-server
+ - Prometheus
+ - Promdash
+ - Docker
+ - cadvisor
+ - Galaxia
 
 Python v2.7
 -----------
