@@ -137,8 +137,9 @@ mysql-server
 Follow the steps below to install mysql-server on ubuntu
 
 ```
-- sudo apt-get update
-- sudo apt-get install -y mysql-server
+sudo apt-get update
+sudo apt-get install -y mysql-server
+
 ```
 
 When prompted Set up username as "root" and password as "root".
@@ -199,7 +200,7 @@ Prometheus
 
 ```
 
-    ./prometheus -config.file=prometheus.yml
+./prometheus -config.file=prometheus.yml
 
 ```
 
